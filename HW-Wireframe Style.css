@@ -1,0 +1,175 @@
+#header {
+    width: 1000px;
+    height: 70px;
+    background-color: lightgray;
+    position: relative;
+    left: 250px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+body {
+    font-family: Arial, Helvetica, Helvetica, sans-serif;
+    color: white;
+    background: #777;
+    font-size: 18px;
+
+}
+
+.main_menu{
+    width: 960px;
+    background-color: lightgrey; 
+    position: relative;
+    left: 250px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#section {
+    float: left;
+    background-color: lightgrey;
+    width: 635px;
+    height: 400px;
+    position: relative;
+    left: 250px;
+    text-align: center;
+}
+
+#article {
+    background-color: grey;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left:70px;
+    text-align: center;
+}
+
+#aside {
+    float: left;
+    Background-color: lightgrey;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    left: 265px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    clear: both;
+    background-color: lightgrey;
+    position: relative;
+    top: 10px;
+    left: 250px;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#article1{
+    position: absolute;
+    left: 120px;
+    top:110px;
+    background-color: lightgrey;
+    width:400px;
+}
+
+#article2{
+    position: absolute;
+    left: 120px;
+    top:200px;
+    background-color: lightgrey;
+    width:400px;
+    height: 80px;
+
+}
+
+@media screen and (max-width: 980px){
+    #header{
+        width:100%;
+    }
+    .main_menu{
+        width:90%;
+    }
+    #section{
+        width:70%;
+    }
+    #aside{
+        width:27%;
+    }
+    .footer{
+        width:100%;
+    }
+    #article2{
+        width:30%;
+    }
+    #article1{
+        width:30%;
+    }
+    #article{
+        width:70%;
+}
+
+@media screen and (max-width: 768px){
+    #header{
+        width:100%;
+    }
+    .main_menu{
+        width:90%;
+    }
+    #section{
+        width:70%;
+    }
+    #aside{
+        width:27%;
+    }
+    .footer{
+        width:100%;
+    }
+    #article2{
+        width:30%;
+    }
+    #article1{
+        width:30%;
+    }
+    #article{
+        width:70%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #header{
+        width:100%;
+    }
+    .main_menu{
+        width:90%;
+    }
+    #section{
+        width:70%;
+    }
+    #aside{
+        width:27%;
+    }
+    .footer{
+        width:100%;
+    }
+    #article2{
+        width:30%;
+    }
+    #article1{
+        width:30%;
+    }
+    #article{
+        width:70%;
+    }
+}
